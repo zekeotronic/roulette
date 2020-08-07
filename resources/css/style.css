@@ -1,0 +1,82 @@
+:root {
+  --res-green:#0eab14;
+  --res-red: #fa2a1d;
+  --res-black: #323232;
+}
+
+/* #game-board {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  background-color: rgb(1, 67, 30);
+  height: 600px;
+  width: 1250px;
+  color: white;
+  text-align: center;
+}
+.number {
+  align-content: center;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#result {
+  margin: 0 auto;
+  width: 300px;
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(6, 50px);
+  grid-template-rows: repeat(6, 50px);
+  background-color: var(--res-green);
+}
+
+#result-box {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  background-image: url('/resources/images/wheel-empty.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+
+}
+
+#result-number, #result-text {
+  color: white;
+}
+
+#result-number {
+  text-align: center;
+  align-self: center;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  font-size: 175px;
+}
+
+#result-text {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-start: 6;
+  text-align: center;
+  align-self: center;
+  font-size: 30px;
+}
+
+#roll-btn {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 25px;
+  cursor: pointer;
+  background-color: white;
+  padding: 5px;
+  border: 2px black solid;
+  width: 75px;
+  border-radius: 7px;
+}
