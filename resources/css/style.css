@@ -25,11 +25,11 @@
 
 #result {
   margin: 0 auto;
-  width: 300px;
+  width: 450px;
   margin-top: 25px;
   display: grid;
-  grid-template-columns: repeat(6, 50px);
-  grid-template-rows: repeat(6, 50px);
+  grid-template-columns: repeat(6, 75px);
+  grid-template-rows: repeat(6, 75px);
   background-color: var(--res-green);
 }
 
