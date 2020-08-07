@@ -43,7 +43,7 @@ const black = '#323232';
 
 const wheel0 = 'url(/resources/images/wheel0.jpg)';
 const wheel00 = 'url(/resources/images/wheel00.jpg)';
-const wheel1 = 'url(/resources/images/wheel1.jpg0)';
+const wheel1 = 'url(/resources/images/wheel1.jpg)';
 const wheel2 = 'url(/resources/images/wheel2.jpg)';
 const wheel3 = 'url(/resources/images/wheel3.jpg)';
 const wheel4 = 'url(/resources/images/wheel4.jpg)';
@@ -227,7 +227,7 @@ const spinWheel = () => {
       return '22 Black Even';
     break;
     case 23:
-      document.getElementById('result-box').style.backgroundImage = whee23;
+      document.getElementById('result-box').style.backgroundImage = wheel23;
       document.getElementById('result-text').innerHTML = numTwentyThree;
       //document.getElementById('result-number').innerHTML = '23';
       return '23 Red Odd';
