@@ -92,229 +92,229 @@ const spinWheel = () => {
       document.getElementById('result-box').style.backgroundImage = wheel0;
       document.getElementById('result-text').innerHTML = numZero;
       //document.getElementById('result-number').innerHTML = '0';
-      return '0 Zero';
+      // return '0 Zero';
     break;
     case 1:
       document.getElementById('result-box').style.backgroundImage = wheel1;
       document.getElementById('result-text').innerHTML = numOne;
       //document.getElementById('result-number').innerHTML = '1';
-      return '1 Red Odd';
+      // return '1 Red Odd';
     break;
     case 2:
       document.getElementById('result-box').style.backgroundImage = wheel2;
       document.getElementById('result-text').innerHTML = numTwo;
       //document.getElementById('result-number').innerHTML = '2';
-      return '3 Black Even';
+      // return '3 Black Even';
     break;
     case 3:
       document.getElementById('result-box').style.backgroundImage = wheel3;
       document.getElementById('result-text').innerHTML = numThree;
       //document.getElementById('result-number').innerHTML = '3';
-      return '3 Red Odd';
+      // return '3 Red Odd';
     break;
     case 4:
       document.getElementById('result-box').style.backgroundImage = wheel4;
       document.getElementById('result-text').innerHTML = numFour;
       //document.getElementById('result-number').innerHTML = '4';
-      return '4 Black Even';
+      // return '4 Black Even';
     break;
     case 5:
       document.getElementById('result-box').style.backgroundImage = wheel5;
       document.getElementById('result-text').innerHTML = numFive;
       //document.getElementById('result-number').innerHTML = '5';
-      return '5 Red Odd';
+      // return '5 Red Odd';
     break;
     case 6:
       document.getElementById('result-box').style.backgroundImage = wheel6;
       document.getElementById('result-text').innerHTML = numSix;
       //document.getElementById('result-number').innerHTML = '6';
-      return '6 Black Even';
+      // return '6 Black Even';
     break;
     case 7:
       document.getElementById('result-box').style.backgroundImage = wheel7;
       document.getElementById('result-text').innerHTML = numSeven;
       //document.getElementById('result-number').innerHTML = '7';
-      return '7 Red Odd';
+      // return '7 Red Odd';
     break;
     case 8:
       document.getElementById('result-box').style.backgroundImage = wheel8;
       document.getElementById('result-text').innerHTML = numEight;
       //document.getElementById('result-number').innerHTML = '8';
-      return '8 Black Even';
+      // return '8 Black Even';
     break;
     case 9:
       document.getElementById('result-box').style.backgroundImage = wheel9;
       document.getElementById('result-text').innerHTML = numNine;
       //document.getElementById('result-number').innerHTML = '9';
-      return '9 Red Odd';
+      // return '9 Red Odd';
     break;
     case 10:
       document.getElementById('result-box').style.backgroundImage = wheel10;
       document.getElementById('result-text').innerHTML = numTen;
       //document.getElementById('result-number').innerHTML = '10';
-      return '10 Black Even';
+      // return '10 Black Even';
     break;
     case 11:
       document.getElementById('result-box').style.backgroundImage = wheel11;
       document.getElementById('result-text').innerHTML = numEleven;
       //document.getElementById('result-number').innerHTML = '11';
-      return '11 Black Odd';
+      // return '11 Black Odd';
     break;   
     case 12:
       document.getElementById('result-box').style.backgroundImage = wheel12;
       document.getElementById('result-text').innerHTML = numTwelve;
       //document.getElementById('result-number').innerHTML = '12';
-      return '12 Red Even';
+      // return '12 Red Even';
     break;
     case 13:
       document.getElementById('result-box').style.backgroundImage = wheel13;
       document.getElementById('result-text').innerHTML = numThirteen;
       //document.getElementById('result-number').innerHTML = '13';
-      return '13 Black Odd';
+      // return '13 Black Odd';
     break;
     case 14:
       document.getElementById('result-box').style.backgroundImage = wheel14;
       document.getElementById('result-text').innerHTML = numFourteen;
       //document.getElementById('result-number').innerHTML = '14';
-      return '14 Red Even';
+      // return '14 Red Even';
     break;
     case 15:
       document.getElementById('result-box').style.backgroundImage = wheel15;
       document.getElementById('result-text').innerHTML = numFifteen;
       //document.getElementById('result-number').innerHTML = '15';
-      return '15 Black Odd';
+      // return '15 Black Odd';
     break;
     case 16:
       document.getElementById('result-box').style.backgroundImage = wheel16;
       document.getElementById('result-text').innerHTML = numSixteen;
       //document.getElementById('result-number').innerHTML = '16';
-      return '16 Red Even';
+      // return '16 Red Even';
     break;
     case 17:
       document.getElementById('result-box').style.backgroundImage = wheel17;
       document.getElementById('result-text').innerHTML = numSeventeen;
       //document.getElementById('result-number').innerHTML = '17';
-      return '17 Black Odd';
+      // return '17 Black Odd';
     break;
     case 18:
       document.getElementById('result-box').style.backgroundImage = wheel18;
       document.getElementById('result-text').innerHTML = numEighteen;
       //document.getElementById('result-number').innerHTML = '18';
-      return '18 Red Even';
+      // return '18 Red Even';
     break;
     case 19:
       document.getElementById('result-box').style.backgroundImage = wheel19;
       document.getElementById('result-text').innerHTML = numNineteen;
       //document.getElementById('result-number').innerHTML = '19';
-      return '19 Red Odd';
+      // return '19 Red Odd';
     break;
     case 20:
       document.getElementById('result-box').style.backgroundImage = wheel20;
       document.getElementById('result-text').innerHTML = numTwenty;
       //document.getElementById('result-number').innerHTML = '20';
-      return '20 Black Even';
+      // return '20 Black Even';
     break;
     case 21:
       document.getElementById('result-box').style.backgroundImage = wheel21;
       document.getElementById('result-text').innerHTML = numTwentyOne;
       //document.getElementById('result-number').innerHTML = '21';
-      return '21 Red Odd';
+      // return '21 Red Odd';
     break;
     case 22:
       document.getElementById('result-box').style.backgroundImage = wheel22;
       document.getElementById('result-text').innerHTML = numTwentyTwo;
       //document.getElementById('result-number').innerHTML = '22';
-      return '22 Black Even';
+      // return '22 Black Even';
     break;
     case 23:
       document.getElementById('result-box').style.backgroundImage = wheel23;
       document.getElementById('result-text').innerHTML = numTwentyThree;
       //document.getElementById('result-number').innerHTML = '23';
-      return '23 Red Odd';
+      // return '23 Red Odd';
     break; 
     case 24:
       document.getElementById('result-box').style.backgroundImage = wheel24;
       document.getElementById('result-text').innerHTML = numTwentyFour;
       //document.getElementById('result-number').innerHTML = '24';
-      return '24 Black Even';
+      // return '24 Black Even';
     break;
     case 25:
       document.getElementById('result-box').style.backgroundImage = wheel25;
       document.getElementById('result-text').innerHTML = numTwentyFive;
       //document.getElementById('result-number').innerHTML = '25';
-      return '25 Red Odd';
+      // return '25 Red Odd';
     break;
     case 26:
       document.getElementById('result-box').style.backgroundImage = wheel26;
       document.getElementById('result-text').innerHTML = numTwentySix;
       //document.getElementById('result-number').innerHTML = '26';
-      return '26 Black Even';
+      // return '26 Black Even';
     break;
     case 27:
       document.getElementById('result-box').style.backgroundImage = wheel27;
       document.getElementById('result-text').innerHTML = numTwentySeven;
       //document.getElementById('result-number').innerHTML = '27';
-      return '27 Red Odd';
+      // return '27 Red Odd';
     break;
     case 28:
       document.getElementById('result-box').style.backgroundImage = wheel28;
       document.getElementById('result-text').innerHTML = numTwentyEight;
       //document.getElementById('result-number').innerHTML = '28';
-      return '28 Black Even';
+      // return '28 Black Even';
     break;
     case 29:
       document.getElementById('result-box').style.backgroundImage = wheel29;
       document.getElementById('result-text').innerHTML = numTwentyNine;
       //document.getElementById('result-number').innerHTML = '29';
-      return '29 Black Odd';
+      // return '29 Black Odd';
     break;
     case 30:
       document.getElementById('result-box').style.backgroundImage = wheel30;
       document.getElementById('result-text').innerHTML = numThirty;
       //document.getElementById('result-number').innerHTML = '30';
-      return '30 Red Even';
+      // return '30 Red Even';
     break;
     case 31:
       document.getElementById('result-box').style.backgroundImage = wheel31;
       document.getElementById('result-text').innerHTML = numThirtyOne;
       //document.getElementById('result-number').innerHTML = '31';
-      return '31 Black Odd';
+      // return '31 Black Odd';
     break;
     case 32:
       document.getElementById('result-box').style.backgroundImage = wheel32;
       document.getElementById('result-text').innerHTML = numThirtyTwo;
       //document.getElementById('result-number').innerHTML = '32';
-      return '32 Red Even';
+      // return '32 Red Even';
     break;
     case 33:
       document.getElementById('result-box').style.backgroundImage = wheel33;
       document.getElementById('result-text').innerHTML = numThirtyThree;
       //document.getElementById('result-number').innerHTML = '33';
-      return '33 Black Odd';
+      // return '33 Black Odd';
     break;
     case 34:
       document.getElementById('result-box').style.backgroundImage = wheel34;
       document.getElementById('result-text').innerHTML = numThirtyFour;
       //document.getElementById('result-number').innerHTML = '34';
-      return '34 Red Even';
+      // return '34 Red Even';
     break;
     case 35:
       document.getElementById('result-box').style.backgroundImage = wheel35;
       document.getElementById('result-text').innerHTML = numThirtyFive;
       //document.getElementById('result-number').innerHTML = '35';
-      return '35 Black Odd';
+      // return '35 Black Odd';
     break; 
     case 36:
       document.getElementById('result-box').style.backgroundImage = wheel36;
       document.getElementById('result-text').innerHTML = numThirtySix;
       //document.getElementById('result-number').innerHTML = '36';
-      return '36 Red Even';
+      // return '36 Red Even';
     break;
     case 37:
       document.getElementById('result-box').style.backgroundImage = wheel00;
       document.getElementById('result-text').innerHTML = numDubZero;
       //document.getElementById('result-number').innerHTML = '00';
-      return '00 Double Zero';
+      // return '00 Double Zero';
     break;
   };
 };
@@ -324,6 +324,6 @@ document.onkeydown = spinWheel;
 rollButton.addEventListener('click', spinWheel);
 
 
-// for (let i = 0; i < 25; i++) {
-//   console.log(spinWheel());
-// };
+for (let i = 0; i < 1000; i++) {
+   console.log(spinWheel());
+ };
